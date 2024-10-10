@@ -609,7 +609,9 @@ input, select, textarea {
 }
 
 .projects li img {
-	box-shadow: 0.5rem 1rem 2rem #735793;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	background: #7ec3ee95;
 	margin-bottom: 1rem;
 	width: 400px;
 	height: auto;
