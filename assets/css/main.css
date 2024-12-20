@@ -1537,6 +1537,13 @@ input, select, textarea {
 	align-items:center;
 }
 
+.brand a {border:none;}
+
+.postman {
+	width: 35px;
+	height: 35px;
+}
+
 .tools {
 	display: -moz-flex;
 	display: -webkit-flex;
