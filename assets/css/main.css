@@ -603,34 +603,51 @@ input, select, textarea {
 	align-content: center;
 }
 
-.projects li {
-	list-style: none;
-	margin: 1rem 2rem;
-}
+	.project {
+		list-style: none;
+		margin: 1rem 2rem;
+	}
 
-.projects li img {
-	padding: 1rem;
-	border-radius: 0.5rem;
-	background: #7ec3ee95;
-	margin-bottom: 1rem;
-	width: 400px;
-	height: auto;
-}
+		.project img {
+			padding: 1rem;
+			border-radius: 0.5rem;
+			background: #7ec3ee95;
+			margin-bottom: 1rem;
+			width: 400px;
+			height: auto;
+		}
+
+			.project p > span {
+				font-weight: bold;
+			}
+
+				.project p > a {
+					font-weight: bold;
+					font-size: 1.1rem;
+					border: 2px solid #7ec3ee95;
+					padding: 0.5rem 1rem;
+					margin: 0 0.2rem;
+					border-radius: 25px;
+				}
+
+				.project p > a:hover {
+					background: #7ec3ee95;
+				}
 
 @media all and (max-width: 520px) {
-	.projects li img {
+	.project img {
 		width: 300px;
 	}
 }
 
 @media all and (max-width: 425px) {
-	.projects li img {
+	.project img {
 		width: 200px;
 	}
 }
 
 @media all and (max-width: 300px) {
-	.projects li img {
+	.project img {
 		width: 150px;
 	}
 }
