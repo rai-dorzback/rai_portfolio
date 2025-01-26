@@ -68,10 +68,28 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 17pt;
+		font-size: 1.7rem;
 		font-weight: 300;
 		line-height: 1.65;
 	}
+
+/* blog posts */
+.blog {
+	border: 1px solid rgba(0, 0, 0, 0.25);
+	border-radius: 1.5rem;
+	padding: 1rem;
+	background: #cbe7f8b4;
+	padding-bottom: 0;
+	cursor: pointer;
+}
+
+.blog p, .blog h2 {
+	color: #000 !important;
+}
+
+.blog:hover {
+	background: #cbe7f8f2;
+}
 
 		@media screen and (max-width: 1680px) {
 
@@ -509,42 +527,6 @@ input, select, textarea {
 	section.special, article.special {
 		text-align: center;
 	}
-
-	header.major {
-		margin-bottom: 3em;
-	}
-
-		header.major h2 {
-			font-size: 2em;
-		}
-
-			header.major h2:after {
-				display: block;
-				content: '';
-				width: 3.25em;
-				height: 2px;
-				margin: 0.7em 0 1em 0;
-				border-radius: 2px;
-			}
-
-				section.special header.major h2:after, article.special header.major h2:after {
-					margin-left: auto;
-					margin-right: auto;
-				}
-
-		header.major p {
-			font-size: 1.25em;
-			letter-spacing: -0.025em;
-		}
-
-		header.major.special {
-			text-align: center;
-		}
-
-			header.major.special h2:after {
-				margin-left: auto;
-				margin-right: auto;
-			}
 
 	footer.major {
 		margin-top: 3em;
@@ -1015,7 +997,7 @@ input, select, textarea {
 		}
 
 		#nav + #main {
-			padding-top: 4.25em;
+			padding-top: 1em;
 		}
 
 		#nav ul {
@@ -1257,8 +1239,8 @@ input, select, textarea {
 		}
 
 		#main > .main {
-			padding: 5em 5em 3em 5em ;
 			border-top: solid 1px #dddddd;
+			padding-top:1rem !important;
 		}
 
 			#main > .main:first-child {
