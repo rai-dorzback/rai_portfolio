@@ -1,4 +1,4 @@
-<h1 align="center">Raisa Dorzback Portfolio Website</h1>
+<h1 align="center">Rai Dorzback Portfolio Website</h1>
 <p align="center"> 
   <a href="https://raisadorzback.netlify.app/" target="blank">
     <img src="https://img.shields.io/badge/Live_Website-Here-625095?&style=for-the-badge" alt="Website">
