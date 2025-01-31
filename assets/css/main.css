@@ -25,7 +25,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	-webkit-text-size-adjust: none;
-	background-color: #935d8c;
 	background-image: -moz-linear-gradient(85deg, #8cc9f0 15%, #5f4d93 85%);
 	background-image: -webkit-linear-gradient(85deg, #8cc9f0 15%, #5f4d93 85%);
 	background-image: -ms-linear-gradient(85deg, #8cc9f0 15%, #5f4d93 85%);
@@ -759,6 +758,14 @@ input, select, textarea {
 			.spotlight .content header.major {
 				margin: 0 0 2em 0;
 			}
+
+				.spotlight .content p {
+					margin: 0.8rem 0;
+				}
+
+				.spotlight .content ul {
+					margin: 0;
+				}
 
 		.spotlight .image {
 			display: inline-block;
