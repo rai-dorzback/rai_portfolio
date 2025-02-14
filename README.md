@@ -5,7 +5,7 @@
   </a>
 </p>
 <p align="center">
-	<img width="900" alt="Raisa Dorzback Website Across Devices" src="https://github.com/raisa-d/100DevsHomework/assets/144272001/69ba68ad-e678-499d-bb5a-378baf069950">
+	<img width="900" alt="Rai Dorzback Website Across Devices" src="https://github.com/user-attachments/assets/d8ffe23b-aba8-4c9a-8ff8-ccb6276c2969" />
 </p>
 <p>Welcome to my software engineering portfolio! Here you'll find a collection of my recent projects, demonstrating my skills and expertise in building websites & web applications. From creating sleek and responsive websites to developing dynamic applications with API integrations, I strive to deliver high-quality solutions that meet user needs and exceed expectations. My portfolio includes projects, links to said projects & their GitHub repositories, and ways to get in contact with me.</p>
 
