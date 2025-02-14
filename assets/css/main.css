@@ -75,17 +75,23 @@ input, select, textarea {
 	}
 
 /* blog posts */
-#blog {
-	padding-bottom: 2rem !important;
-}
-
 .blog {
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
 	border: 1px solid rgba(0, 0, 0, 0.25);
 	border-radius: 1.5rem;
 	padding: 1rem;
 	background: #cbe7f886;
-	padding-bottom: 0;
 	cursor: pointer;
+}
+
+#article-thumbnail {
+	margin: 10px 0;
+	height: 200px;
 }
 
 .blog p, .blog h2 {
@@ -112,12 +118,30 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 675px) {
+			#article-thumbnail {
+				height: 150px;
+			}
+		}
+
+		@media screen and (max-width: 435px) {
+			#article-thumbnail {
+				height: 100px;
+			}
+		}
+
 		@media screen and (max-width: 360px) {
 
 			body, input, select, textarea {
 				font-size: 11pt;
 			}
 
+		}
+
+		@media screen and (max-width: 301px) {
+			#article-thumbnail {
+				height: 80px;
+			}
 		}
 
 	a {
@@ -177,6 +201,9 @@ input, select, textarea {
 /* Row */
 
 	.row {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
@@ -219,6 +246,9 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.row {
+				display: -moz-flex;
+				display: -webkit-flex;
+				display: -ms-flex;
 				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
@@ -254,6 +284,9 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.row {
+				display: -moz-flex;
+				display: -webkit-flex;
+				display: -ms-flex;
 				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
@@ -289,6 +322,9 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.row {
+				display: -moz-flex;
+				display: -webkit-flex;
+				display: -ms-flex;
 				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
@@ -602,11 +638,8 @@ input, select, textarea {
 
 				.btn {
 					font-weight: bold;
-					/* font-size: 1.1rem; */
 					border: .1rem solid #8cc9f0;
 					color: #000;
-					/* padding: 0.5rem 1rem; */
-					/* margin: 0 0.2rem; */
 					border-radius: 25px;
 					margin: .1rem;
 				}
@@ -624,6 +657,7 @@ input, select, textarea {
 @media all and (max-width: 425px) {
 	.project img {
 		width: 200px;
+		padding: 0.5rem;
 	}
 }
 
@@ -797,6 +831,7 @@ input, select, textarea {
 					-ms-flex: 0 1 auto;
 					flex: 0 1 auto;
 					width: 100%;
+					text-align: left;
 				}
 
 					.spotlight .content header.major h2:after {
