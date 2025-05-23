@@ -89,9 +89,13 @@ input, select, textarea {
 	cursor: pointer;
 }
 
-#article-thumbnail {
+.article-thumbnail {
 	margin: 10px 0;
 	height: 200px;
+}
+
+ .blog {
+	margin-top: 20px;
 }
 
 .blog p, .blog h2 {
@@ -119,13 +123,13 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 675px) {
-			#article-thumbnail {
+			.article-thumbnail {
 				height: 150px;
 			}
 		}
 
 		@media screen and (max-width: 435px) {
-			#article-thumbnail {
+			.article-thumbnail {
 				height: 100px;
 			}
 		}
@@ -139,7 +143,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 301px) {
-			#article-thumbnail {
+			.article-thumbnail {
 				height: 80px;
 			}
 		}
@@ -172,6 +176,14 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.5em;
+	}
+
+	.title {
+		margin: 0;
+	}
+
+	.title:last-of-type {
+		margin-bottom: 10px;
 	}
 
 	h3 {
@@ -573,6 +585,12 @@ input, select, textarea {
 		margin-top: 3em;
 	}
 
+	@media screen and (max-width:757px) {
+		header {
+			padding: 1rem !important;
+		}
+	}
+
 	@media screen and (max-width: 736px) {
 
 		header.major {
@@ -592,6 +610,42 @@ input, select, textarea {
 					display: none;
 				}
 
+	}
+
+	@media screen and (max-width: 456px) {
+		#header h2 {
+			font-size: 1.2rem;
+		}
+	}
+
+	@media screen and (max-width: 377px) {
+		#header h1 {
+			font-size: 2.2rem !important;
+		}
+
+		#header h2 {
+			font-size: 1.1rem !important;
+		}
+	}
+
+	@media screen and (max-width: 352px) {
+		#header h1 {
+			font-size: 1.5rem !important;
+		}
+
+		#header h2 {
+			font-size: 1rem !important;
+		}
+	}
+
+	@media screen and (max-width: 320px) {
+		#header h1 {
+			font-size: 1.2rem !important;
+		}
+
+		#header h2 {
+			font-size: 0.9rem !important;
+		}
 	}
 
 	header.major h2:after {

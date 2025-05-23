@@ -1,6 +1,6 @@
 <h1 align="center">Rai Dorzback Portfolio Website</h1>
 <p align="center"> 
-  <a href="https://raisadorzback.netlify.app/" target="blank">
+  <a href="https://rai-dorzback.netlify.app/" target="blank">
     <img src="https://img.shields.io/badge/Live_Website-Here-625095?&style=for-the-badge" alt="Website">
   </a>
 </p>
@@ -52,7 +52,7 @@
 
 ## Contact
 <p> 
-  <a href="https://raisadorzback.netlify.app/" target="blank">
+  <a href="https://rai-dorzback.netlify.app/" target="blank">
     <img src="https://img.shields.io/badge/Website-563d7c?&style=for-the-badge" alt="Website">
   </a>
   <a href="https://www.linkedin.com/in/rai-d/">
@@ -61,4 +61,7 @@
   <a href="https://twitter.com/rai__bread" target="blank">
     <img src="https://img.shields.io/badge/Twitter-563d7c?logo=twitter&style=for-the-badge&logoColor=white" alt="rai__bread" />
   </a> 
+  <a href="https://linktr.ee/rai.dorzback">
+    <img src="https://img.shields.io/badge/Linktree-046E6D?style=for-the-badge">
+  </a>
 </p>
