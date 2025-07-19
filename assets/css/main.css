@@ -180,6 +180,7 @@ input, select, textarea {
   line-height: 1.3;
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -192,6 +193,7 @@ input, select, textarea {
   flex: 1;
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -1292,6 +1294,98 @@ input, select, textarea {
 }
 .project-card:nth-child(6) {
   animation-delay: 0.6s;
+}
+
+/* Mobile Project Links - Always Visible */
+.project-links-mobile {
+  display: none;
+  padding: 1rem 1.5rem 0 1.5rem;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Mobile Button Styles */
+.btn-mobile {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #ffffff !important;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.85rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-mobile:hover {
+  background: linear-gradient(135deg, #5a6fd8 0%, #6a4190 100%);
+  transform: translateY(-1px);
+}
+
+.btn-mobile.secondary {
+  background: transparent;
+  color: #667eea !important;
+  border: 2px solid #667eea;
+}
+
+.btn-mobile.secondary:hover {
+  background: #667eea;
+  color: #ffffff !important;
+}
+
+/* Update existing mobile responsive section */
+@media screen and (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  .project-image {
+    height: 200px;
+  }
+
+  .project-content {
+    padding: 1.25rem;
+  }
+
+  .project-content h3 {
+    font-size: 1.25rem;
+  }
+
+  /* Hide desktop overlay on mobile */
+  .project-overlay {
+    display: none;
+  }
+
+  /* Show mobile links */
+  .project-links-mobile {
+    display: flex;
+  }
+
+  .btn-mobile {
+    flex: 1;
+    justify-content: center;
+    min-width: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project-links-mobile {
+    padding: 0.75rem 1rem 0 1rem;
+    gap: 0.375rem;
+  }
+
+  .btn-mobile {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
 }
 
 /* Statistics */
