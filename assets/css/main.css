@@ -528,10 +528,10 @@ article.special {
   object-fit: cover;
   transition: transform 0.3s ease;
 }
-
+/* 
 .project-card:hover .project-image img {
   transform: scale(1.05);
-}
+} */
 
 .project-overlay {
   position: absolute;
@@ -811,9 +811,9 @@ article.special {
   transition: transform 0.3s ease;
 }
 
-.blog-card:hover .blog-thumbnail {
+/* .blog-card:hover .blog-thumbnail {
   transform: scale(1.05);
-}
+} */
 
 .blog-overlay {
   position: absolute;
