@@ -641,20 +641,28 @@ article.special {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  color: #000;
 }
 
 .tech-tag.javascript {
   background: #f7df1e;
-  color: #000;
+}
+
+.tech-tag.typescript {
+  background: #3279c6;
 }
 
 .tech-tag.react {
   background: #61dafb;
-  color: #000;
 }
 
 .tech-tag.nodejs {
   background: #68a063;
+  color: #fff;
+}
+
+.tech-tag.nextjs {
+  background: #000;
   color: #fff;
 }
 
