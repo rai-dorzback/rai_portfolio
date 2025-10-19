@@ -1686,3 +1686,7 @@ body.is-preload #header.alt .logo {
     gap: 0.25rem;
   }
 }
+
+h2:not(.title) {
+  color: #2c2c2c;
+}
