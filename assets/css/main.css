@@ -1497,6 +1497,9 @@ body.is-preload #header.alt .logo {
   width: 100%;
   font-size: 0.8em;
   text-align: center;
+}
+
+#footer .copyright, #footer h2{
   color: #fff;
 }
 
